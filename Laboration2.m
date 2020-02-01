@@ -1,0 +1,5 @@
+clear;
+clc;
+tic;
+
+toc;
