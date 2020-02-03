@@ -37,6 +37,6 @@ yComp = imdct(yQuantized*quantStep);
 audiowrite('heyhey_compressed.wav', yComp, fs);
 
 % Beräkna SNR
-Snrdb = snr(y, yComp - y);
+SnrDb = snr(y, yComp - y);
 
 toc;
